@@ -1,0 +1,1142 @@
+[
+  {
+    "question": "What is the primary role of an MTSO?",
+    "options": [
+      "Transmit signals to mobile units",
+      "Assign voice channels and perform handoffs",
+      "Manage frequency reuse",
+      "Design cell shapes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What connects a base station to the public telephone network?",
+    "options": [
+      "MTSO",
+      "RF Cable",
+      "Control Channel",
+      "Traffic Channel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "For a system with 32 cells, cell radius 1.6 km, 336 total channels, N=7; what is the coverage area?",
+    "options": [
+      "25.6 km²",
+      "128.6 km²",
+      "257.2 km²",
+      "514.4 km²"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "For 960 total channels, cell area 6 km², total coverage 2000 km² cluster size N=4; channels per cell?",
+    "options": [
+      "240 channels/cell",
+      "120 channels/cell",
+      "960 channels/cell",
+      "60 channels/cell"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Does decreasing cluster size N increase system capacity?",
+    "options": [
+      "Yes, always",
+      "No, never",
+      "Yes, but increases interference",
+      "No, it decreases capacity"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The relationship between cluster size N and capacity is:",
+    "options": [
+      "Directly proportional",
+      "Inversely proportional",
+      "Exponential",
+      "No relationship"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If cell radius is halved, number of cells increases by:",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "Same number"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If total coverage=1500 km², cell area=5 km², N=4; total clusters needed?",
+    "options": [
+      "75 clusters",
+      "300 clusters",
+      "20 clusters",
+      "120 clusters"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "System with 1000 channels, N=6, 60 clusters; total capacity?",
+    "options": [
+      "6,000 calls",
+      "60,000 calls",
+      "200 calls",
+      "1,000 calls"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If cell radius increases from 1 km to 2 km, area increases by:",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "16 times"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If N decreases from 7 to 4, capacity increases by factor of:",
+    "options": [
+      "1.75 times",
+      "0.57 times",
+      "1.0 times (no change)",
+      "2.5 times"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which N gives lowest interference?",
+    "options": [
+      "N=1",
+      "N=4",
+      "N=7",
+      "N=9"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Advantage of N=9 over N=4?",
+    "options": [
+      "Higher capacity",
+      "Lower interference",
+      "Smaller cells",
+      "Less equipment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Main problem with N=1?",
+    "options": [
+      "Maximum capacity",
+      "Maximum interference",
+      "Minimum coverage",
+      "High cost"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Optimal N selection depends on?",
+    "options": [
+      "Balancing capacity and interference",
+      "Maximum capacity only",
+      "Minimum interference only",
+      "Cell size only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Relationship between N and capacity?",
+    "options": [
+      "Direct proportional",
+      "Inverse proportional",
+      "Exponential",
+      "Logarithmic"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If the total coverage area is 1500 km², the cell area is 5 km², and the cluster size is N=4; how many total clusters are needed?",
+    "options": [
+      "75 clusters",
+      "300 clusters",
+      "20 clusters",
+      "120 clusters"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A system has 1000 channels, a cluster size of N=6, and 60 clusters; what is the total system capacity (in number of simultaneous calls)?",
+    "options": [
+      "6,000 calls",
+      "60,000 calls",
+      "200 calls",
+      "1,000 calls"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which value of N gives the lowest interference?",
+    "options": [
+      "N=1",
+      "N=4",
+      "N=7",
+      "N=9"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the main problem with using N=1?",
+    "options": [
+      "Maximum capacity",
+      "Maximum interference",
+      "Minimum coverage",
+      "High cost"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Optimal N selection depends on?",
+    "options": [
+      "Balancing capacity and interference",
+      "Maximum capacity only",
+      "Minimum interference only",
+      "Cell size only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does \"channel capacity\" typically refer to in a communication system?",
+    "options": [
+      "The number of cells in a cluster",
+      "The maximum data rate (in bps) a link can support",
+      "The total coverage area of a system",
+      "The battery life of a mobile unit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The minimum power required for a mobile unit to maintain a connection with the base station is primarily determined by what factor?",
+    "options": [
+      "Cell shape",
+      "Path loss and signal-to-noise ratio",
+      "Number of channels",
+      "Type of multiple access"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is NOT a method of Spectrum Multiple Access?",
+    "options": [
+      "FDMA",
+      "TDMA",
+      "CDMA",
+      "MTSO"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "The overall \"system capacity\" is best described as:",
+    "options": [
+      "The data rate of a single link",
+      "The total traffic the entire network can handle",
+      "The power level of a single handset",
+      "The physical size of a cell"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why is the hexagon shape predominantly used in cellular system design?",
+    "options": [
+      "It is the natural shape of radio waves.",
+      "It uses the minimum number of cells for any area.",
+      "It approximates a circular coverage area and allows for seamless, non-overlapping coverage.",
+      "It is the easiest shape to model mathematically."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary goal of using a \"min power\" level in a cell is to:",
+    "options": [
+      "Increase the cell's capacity.",
+      "Reduce interference with neighboring cells and conserve battery.",
+      "Maximize the coverage area of the cell.",
+      "Allow for a larger cluster size."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the difference between \"channel capacity\" and \"system capacity\"?",
+    "options": [
+      "They are the same thing.",
+      "Channel capacity is the data rate of a single link, while system capacity is the total traffic the entire network can handle.",
+      "System capacity is the data rate of a single link, while channel capacity is the total network traffic.",
+      "Channel capacity depends on cell size, while system capacity depends on frequency."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "\"Link Capacity\" in a wireless context is most commonly measured in:",
+    "options": [
+      "Kilometers (km)",
+      "Erlangs",
+      "Bits per second (bps)",
+      "Watts (W)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The theoretical maximum data rate a channel can support is known as:",
+    "options": [
+      "System Capacity",
+      "Channel Capacity",
+      "Spectral Efficiency",
+      "Min Capacity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The \"min capacity\" of a system refers to:",
+    "options": [
+      "The capacity of the smallest cell.",
+      "The guaranteed minimum data rate or number of connections for a user.",
+      "The capacity when using the minimum power setting.",
+      "The capacity of the control channel."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The relationship between the cluster size (N) and the system's capacity is generally:",
+    "options": [
+      "Directly Proportional",
+      "Inversely Proportional",
+      "Exponentially Proportional",
+      "There is no relationship."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Decreasing the cluster size (N) from 7 to 4 typically:",
+    "options": [
+      "Decreases capacity and decreases interference.",
+      "Decreases capacity and increases interference.",
+      "Increases capacity and increases interference.",
+      "Increases capacity and decreases interference."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary problem with using the smallest possible cluster size (N=1) is:",
+    "options": [
+      "It minimizes system capacity.",
+      "It leads to maximum co-channel interference.",
+      "It requires excessively large cells.",
+      "It is very expensive to implement."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The optimal cluster size (N) is selected by:",
+    "options": [
+      "Maximizing the cell radius.",
+      "Finding a balance between capacity and acceptable interference.",
+      "Minimizing the number of base stations.",
+      "Using the smallest value possible."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main function of the MTSO (Mobile Telephone Switching Office) is to:",
+    "options": [
+      "Amplify RF signals.",
+      "Connect calls, assign channels, and manage handoffs.",
+      "Define the shape of the cells.",
+      "Allocate spectrum licenses."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Cell splitting is used to:",
+    "options": [
+      "Increase cell size",
+      "Increase capacity in congested areas",
+      "Reduce interference",
+      "Improve signal quality"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The concept of \"min power\" is most directly related to:",
+    "options": [
+      "Frequency reuse",
+      "Cell splitting",
+      "Power control",
+      "Multiple access"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The number of cells required to cover an area increases when cell radius decreases.",
+    "options": [
+      "Linearly",
+      "Quadratically",
+      "Exponentially",
+      "Logarithmically"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main advantage of using smaller cells is:",
+    "options": [
+      "Reduced infrastructure cost",
+      "Increased capacity per unit area",
+      "Simplified network planning",
+      "Better building penetration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In cellular geometry, the reuse distance D is related to cluster size N by:",
+    "options": [
+      "D=R",
+      "D=R√N",
+      "D=R/N",
+      "D=R√(3N)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "The co-channel interference reduction factor is given by:",
+    "options": [
+      "Q=D/R",
+      "Q=R/D",
+      "Q=D²/R",
+      "Q=R²/D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The unit of channel capacity is:",
+    "options": [
+      "Hertz (Hz)",
+      "Decibels (dB)",
+      "Bits per second (bps)",
+      "Erlangs"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Link capacity equals:",
+    "options": [
+      "System capacity",
+      "Channel capacity",
+      "Network capacity",
+      "User capacity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "As SNR increases, channel capacity:",
+    "options": [
+      "Decreases",
+      "Remains constant",
+      "Increases",
+      "Becomes zero"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "For a fixed SNR, increasing bandwidth:",
+    "options": [
+      "Decreases capacity",
+      "Does not affect capacity",
+      "Increases capacity",
+      "Makes capacity unpredictable"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The relationship between bandwidth and capacity is:",
+    "options": [
+      "Inverse",
+      "Direct",
+      "Exponential",
+      "Logarithmic"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "\"Min capacity\" ensures:",
+    "options": [
+      "Maximum data rates",
+      "Quality of Service guarantees",
+      "Maximum coverage",
+      "Minimum interference"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Spectral efficiency measures:",
+    "options": [
+      "Power consumption",
+      "Bits per second per Hertz",
+      "Coverage area",
+      "Number of users"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In wireless systems, actual capacity is usually ___ theoretical capacity.",
+    "options": [
+      "Higher than",
+      "Equal to",
+      "Lower than",
+      "Unrelated to"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The capacity of a cellular system can be limited by:",
+    "options": [
+      "Only bandwidth",
+      "Only power",
+      "Both bandwidth and interference",
+      "Only cell size"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which requires guard bands?",
+    "options": [
+      "FDMA",
+      "TDMA",
+      "CDMA",
+      "OFDMA"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The primary purpose of multiple access techniques is to:",
+    "options": [
+      "Increase transmission power",
+      "Allow multiple users to share limited spectrum",
+      "Improve signal quality",
+      "Reduce cell size"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The choice of multiple access technique affects:",
+    "options": [
+      "Only data rates",
+      "Only voice quality",
+      "System capacity and performance",
+      "Only coverage area"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In a cellular network, which component is primarily responsible for storing information about subscribers who are permanently registered with that network?",
+    "options": [
+      "Visitor Location Register (VLR)",
+      "Mobile Switching Center (MSC)",
+      "Base Station (BS)",
+      "Home Location Register (HLR)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "When a mobile subscriber roams into a new network area, their information is temporarily stored in which database?",
+    "options": [
+      "Home Location Register (HLR)",
+      "Public Switched Telephone Network (PSTN)",
+      "Visitor Location Register (VLR)",
+      "Base Station (BS)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The central component that switches calls and connects the cellular network to the traditional landline telephone system is the:",
+    "options": [
+      "Base Station (BS)",
+      "Home Location Register (HLR)",
+      "Mobile Switching Center (MSC)",
+      "Public Switched Telephone Network (PSTN)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary function of the PSTN in this context is to:",
+    "options": [
+      "Manage the location of roaming subscribers.",
+      "Route calls to and from the traditional landline telephone network.",
+      "Act as the main database for all local subscribers.",
+      "Handle all data traffic for the mobile network."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following best describes the relationship between the HLR and VLR?",
+    "options": [
+      "The VLR is a permanent database, while the HLR is temporary.",
+      "The HLR queries the VLR for the location of a roaming subscriber.",
+      "The VLR requests subscriber data from the user's HLR when they roam into its area.",
+      "They are two names for the same component."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The path for a voice call from a mobile phone to a landline phone would most directly involve which sequence?",
+    "options": [
+      "MS -> BS -> VLR -> PSTN",
+      "MS -> BS -> MSC -> PSTN",
+      "MS -> HLR -> MSC -> PSTN",
+      "MS -> PSTN -> MSC -> BS"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of cell uses high-power transmitters and receivers and is typically deployed in remote areas?",
+    "options": [
+      "Micro cell",
+      "Pico cell",
+      "Macro cell",
+      "Femtocell"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "You are designing a network for a large international airport. Which cell type would be most appropriate for providing coverage throughout the terminals and runways?",
+    "options": [
+      "Femtocell",
+      "Macro cell",
+      "Pico cell",
+      "Micro cell"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A network engineer needs to improve 4G signal strength inside a single office room. What is the most suitable solution?",
+    "options": [
+      "Install a Macro cell",
+      "Install a Micro cell",
+      "Install a Femtocell",
+      "Install a Pico cell"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the primary application for a Pico cell?",
+    "options": [
+      "Providing coverage in remote, rural areas",
+      "Covering large areas like shopping centres",
+      "Providing connectivity inside specific buildings",
+      "Serving a single room with 4G"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the primary purpose of a Multiple Access Scheme in a cellular network?",
+    "options": [
+      "To increase the transmission power of mobile terminals.",
+      "To organize the sharing of the communication channel among multiple users.",
+      "To reduce the size of the cell covered by a base station.",
+      "To encrypt data for secure transmission."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The need for a Multiple Access Scheme arises because:",
+    "options": [
+      "Mobile terminals have limited battery life.",
+      "Base stations need to serve many mobile terminals at the same time.",
+      "Uplink and downlink frequencies must be different.",
+      "Signals become weaker over long distances."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What problem do Multiple Access Schemes primarily help to avoid?",
+    "options": [
+      "High cost of base station equipment.",
+      "Interference among different senders and receivers.",
+      "Incompatibility between different mobile phone brands.",
+      "Dropped calls during handover."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Multiple Access Schemes manage sharing for:",
+    "options": [
+      "Only the downlink (base station to mobile) direction.",
+      "Only the uplink (mobile to base station) direction.",
+      "Both downlink and uplink directions.",
+      "Communication between mobile terminals directly."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the primary purpose of a \"Guard Band\" in an FDMA system?",
+    "options": [
+      "To increase the data transmission rate for users.",
+      "To prevent interference between adjacent frequency channels.",
+      "To conserve battery power in mobile terminals.",
+      "To encrypt the signal on the frequency channel."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why is frequency considered a \"precious and scarce resource\" in cellular systems?",
+    "options": [
+      "Because the equipment to generate high frequencies is very expensive.",
+      "Because the usable radio spectrum is limited and must be shared among all users and services.",
+      "Because higher frequencies travel shorter distances, requiring more towers.",
+      "Because mobile phones can only operate on a few specific frequencies."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In a typical FDMA system, how many frequency bands does a mobile terminal use for a call?",
+    "options": [
+      "One band for both sending and receiving.",
+      "One downlink band and one uplink band.",
+      "One band for voice and another for data.",
+      "Multiple bands to ensure a strong signal."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The statement \"Different cellular network protocols use different frequencies\" implies that:",
+    "options": [
+      "All mobile phones can operate on any network in the world.",
+      "A phone designed for one network protocol may not work on another if they use different frequency bands.",
+      "FDMA is the only multiple access scheme used in modern cellular networks.",
+      "Frequency bands are the same for all protocols to ensure compatibility."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The structure that contains a cycle of all time slots for different users is called a:",
+    "options": [
+      "Slot",
+      "Guard Time",
+      "Frame",
+      "Channel"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The process in CDMA where each data bit is transmitted as a larger number of bits is called:",
+    "options": [
+      "Encoding",
+      "Encryption",
+      "Spreading",
+      "Compressing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The property that allows the receiver to correctly decode a specific user's signal from the combined signal of all users is that the codes are:",
+    "options": [
+      "Sequential",
+      "Orthogonal",
+      "Identical",
+      "Analog"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary impact of interference on voice channels in a cellular system?",
+    "options": [
+      "Missed calls",
+      "Dropped handoffs",
+      "Crosstalk",
+      "Delayed text messages"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A failure in the handoff process is most likely a result of interference affecting which component?",
+    "options": [
+      "Voice Channels",
+      "Mobile Device Antennas",
+      "Control Channels",
+      "Power Supply"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is NOT listed as a consequence of interference on control channels?",
+    "options": [
+      "Missed and blocked calls",
+      "Failure in the handoff process",
+      "Distorted audio and crosstalk",
+      "Failure in setting up and terminating calls"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The inability of the system to determine the quality of an available voice channel would be caused by interference in the:",
+    "options": [
+      "User's data connection",
+      "Core network servers",
+      "Control channels",
+      "Voice channels"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In a Fixed Channel Assignment strategy, what happens when all channels in a cell are occupied?",
+    "options": [
+      "The system automatically borrows channels from a neighboring cell.",
+      "The call is handed off to a different network.",
+      "The call is blocked, and the subscriber does not receive service.",
+      "The Mobile Switching Center (MSC) dynamically assigns a new frequency."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the key characteristic of a Fixed Channel Assignment strategy?",
+    "options": [
+      "Channels are allocated to cells based on real-time traffic demands.",
+      "Each cell is allocated a predetermined, fixed set of voice channels.",
+      "Channels are shared among all cells simultaneously using codes.",
+      "The MSC assigns a new channel for every call request."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How does the \"borrowing strategy\" variation improve the basic Fixed Channel Assignment?",
+    "options": [
+      "It allows subscribers to use any channel they can detect.",
+      "It permits a congested cell to use channels from a neighboring cell.",
+      "It dynamically changes the cell's predetermined channel set every hour.",
+      "It uses a complex algorithm to predict future call patterns."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main advantage of Dynamic Channel Assignment over Fixed Assignment?",
+    "options": [
+      "It is much simpler to implement and manage.",
+      "It requires less processing power from the Base Station Controller (BSC).",
+      "It reduces the likelihood of call blocking.",
+      "It permanently increases the total number of available channels."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In a Dynamic Channel Assignment strategy, who is responsible for allocating a channel for a call request?",
+    "options": [
+      "The serving Base Station alone.",
+      "The subscriber's mobile phone.",
+      "The Mobile Switching Center (MSC).",
+      "A neighboring cell's base station."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a major factor considered by the MSC's decision algorithm in Dynamic Channel Assignment?",
+    "options": [
+      "The brand of the mobile phone making the call.",
+      "The battery level of the mobile phone.",
+      "The frequency reuse distance of the candidate channel.",
+      "The time of day the call is made."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary trade-off with Dynamic Channel Assignment is that it:",
+    "options": [
+      "is less complex but has a higher chance of blocking.",
+      "is more complex but can lower the chance of blocking.",
+      "uses more spectrum but is simpler to manage.",
+      "requires larger cell sizes but improves call quality."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why does the base station monitor the signal level for a period before initiating a handoff?",
+    "options": [
+      "To calculate the user's monthly bill based on movement.",
+      "To ensure the signal drop is due to the user moving away, not momentary fading.",
+      "To determine the user's final destination.",
+      "To switch the user to a different network provider."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary purpose of defining a \"minimum usable signal\" level in a cellular system?",
+    "options": [
+      "To determine the maximum battery life of a mobile device.",
+      "To define the point at which voice quality becomes unacceptable.",
+      "To set the price for different service quality tiers.",
+      "To identify the fastest possible data transmission rate."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why is the handoff threshold set to a level stronger than the minimum usable signal?",
+    "options": [
+      "To ensure the mobile device's battery does not drain too quickly.",
+      "To provide a safety margin that allows time for the handoff process to complete before the call drops.",
+      "To force users onto cells with more available capacity.",
+      "To reduce the number of unnecessary handoffs for stationary users."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The \"minimum usable signal\" can also be accurately described as the:",
+    "options": [
+      "Handoff initiation signal",
+      "Call setup signal",
+      "Signal dropping threshold",
+      "Maximum transmit power"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the primary function of a base station's \"locator receiver\"?",
+    "options": [
+      "To monitor the signal strength of its own active voice channels.",
+      "To determine the geographical coordinates of a mobile user using GPS.",
+      "To measure the signal strength of mobile users in neighboring cells.",
+      "To encrypt voice channels during a handoff."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How does a base station determine the relative location of a mobile user that is already on a call within its cell?",
+    "options": [
+      "By using the locator receiver to scan all neighboring frequencies.",
+      "By monitoring the signal strengths on its own reverse voice channels.",
+      "By requesting location data directly from the mobile phone.",
+      "By calculating the time delay from the Mobile Switching Center (MSC)."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Based on the text, what information does the MSC use to make the final decision about a handoff?",
+    "options": [
+      "Only the signal strength information from the serving base station.",
+      "The locator receiver signal strength information from various base stations.",
+      "The mobile user's request for a handoff.",
+      "The current load on its own switching hardware."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The handoff process in 1G systems is best described as:",
+    "options": [
+      "Mobile-Controlled Handoff (MCHO)",
+      "Network-Controlled Handoff (NCHO)",
+      "Mobile-Assisted Handoff (MAHO)",
+      "Soft Handoff"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In a Mobile Assisted HandOff (MAHO), what is the role of the mobile station?",
+    "options": [
+      "It makes the final decision to initiate a handoff.",
+      "It measures received power from surrounding base stations and reports it.",
+      "It controls the power transmission of the serving base station.",
+      "It acts as a repeater for neighboring cells."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "According to the text, when is a handoff typically initiated in a 2G system using MAHO?",
+    "options": [
+      "When the mobile station moves to a different country.",
+      "When the battery level of the mobile station drops below 20%.",
+      "When the power from a neighboring base station exceeds that of the current one by a set level.",
+      "When all channels in the current cell are occupied."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Why is the Mobile Assisted HandOff (MAHO) method particularly suitable for microcellular systems?",
+    "options": [
+      "Because microcells have higher transmission power.",
+      "Because mobile devices in microcellular systems have better batteries.",
+      "Because the faster handoff process is needed in small cells with frequent transitions.",
+      "Because it reduces the number of base stations required."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the phenomenon where a mobile user in a microcell passes the cell edge but continues to have a strong signal with the original base station?",
+    "options": [
+      "Signal Fading",
+      "Cell Dragging",
+      "MSC Intervention",
+      "Velocity Handoff"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How can a base station (BS) handle a high-speed mobile user without involving the MSC?",
+    "options": [
+      "By instructing the user to slow down.",
+      "By transferring the user to a co-located microcell.",
+      "By dropping the call to free up resources.",
+      "By switching the user to a different network provider."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why is cell dragging considered a problem?",
+    "options": [
+      "It causes the mobile device's battery to drain faster.",
+      "It leads to increased interference and network management issues.",
+      "It prevents the mobile user from making new calls.",
+      "It forces the MSC to restart."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify two main techniques for capacity improvement.",
+    "options": [
+      "Cell Splitting and Sectoring",
+      "Frequency Hopping and Power Control",
+      "Handoff Optimization and Roaming",
+      "Antenna Downtilt and Signal Boosting"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "How does sectoring primarily help in improving system capacity?",
+    "options": [
+      "By using directional antennas to reduce interference and enable tighter frequency reuse.",
+      "By dividing a single cell into multiple, smaller cells with their own base stations.",
+      "By allowing cells to borrow channels from their neighbors dynamically.",
+      "By increasing the height of the base station tower to cover a larger area."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following techniques increases capacity by physically increasing the number of base stations in a given area?",
+    "options": [
+      "Sectoring",
+      "Cell Splitting",
+      "Frequency Borrowing",
+      "Power Control"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary goal of cellular design techniques like cell splitting and sectoring?",
+    "options": [
+      "To reduce the cost of mobile devices for end-users.",
+      "To provide more channels per unit coverage area.",
+      "To increase the transmission power of each base station.",
+      "To simplify the network architecture for engineers."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the fundamental process described by \"cell splitting\"?",
+    "options": [
+      "Combining several small cells into one large cell to reduce costs.",
+      "Subdividing a congested cell into smaller cells.",
+      "Sharing a single base station among multiple adjacent cells.",
+      "Increasing the power of a base station to cover a larger area."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is a direct physical change made during cell splitting?",
+    "options": [
+      "Increasing the antenna height of the original base station.",
+      "Adding more channels to the original base station.",
+      "Installing new base stations with lower antenna height and power.",
+      "Switching from directional to omnidirectional antennas."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How does cell splitting primarily increase the capacity of a cellular system?",
+    "options": [
+      "By using a wider frequency spectrum.",
+      "By increasing the transmitter power of all base stations.",
+      "By increasing the number of times channels are reused in a given area.",
+      "By reducing the number of handoffs required."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main problem that cell splitting is designed to solve?",
+    "options": [
+      "Poor voice quality in rural areas.",
+      "High battery consumption in mobile phones.",
+      "Congestion in cells with too many users.",
+      "Interference from other wireless systems."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "According to the text, what is the direct relationship between cell splitting and system capacity?",
+    "options": [
+      "Cell splitting decreases system capacity.",
+      "Cell splitting has no effect on system capacity.",
+      "Cell splitting increases system capacity.",
+      "Cell splitting only improves signal quality, not capacity."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "which type of sectoring uses more directional antennas per cell?",
+    "options": [
+      "120° sectoring",
+      "60° sectoring",
+      "90° sectoring",
+      "Omnidirectional"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How are channels typically allocated in a sectored cell?",
+    "options": [
+      "All channels are available for use anywhere within the entire cell.",
+      "Channels are broken down into groups and used only within a specific sector.",
+      "Channels are shared simultaneously by all sectors using different codes.",
+      "Channels are borrowed from neighboring cells on demand."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The primary technical benefit of sectoring is that it:",
+    "options": [
+      "Increases the signal strength for all users in the cell.",
+      "Reduces co-channel interference from specific directions.",
+      "Eliminates the need for handoffs.",
+      "Combines multiple cells into a single, larger cell."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What key component is used to implement sectoring in a cell?",
+    "options": [
+      "Higher power amplifiers",
+      "Directional antennas",
+      "Additional Mobile Switching Centers (MSCs)",
+      "Larger cell towers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How does sectoring primarily improve cellular system capacity?",
+    "options": [
+      "By increasing the transmitter power of the base station.",
+      "By subdividing a cell into smaller cells with new base stations.",
+      "By allowing a reduction in the cluster size, thus increasing frequency reuse.",
+      "By using a wider bandwidth for each channel."
+    ],
+    "correctIndex": 2
+  }
+]

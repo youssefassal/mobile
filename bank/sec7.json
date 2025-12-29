@@ -1,0 +1,172 @@
+[
+  {
+    "question": "IAM Service is a Regional Service",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "IAM Service is a Service in:",
+    "options": [
+      "Networking and Content Delivery Service Category",
+      "Storage Service Category",
+      "Security, identity, and compliance Service Category",
+      "Compute Service Category"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the Following Services is a Storage Service?",
+    "options": [
+      "EC2",
+      "Amazon S3",
+      "Route 53",
+      "AWS Organizations"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the Following Services is a Compute Service?",
+    "options": [
+      "EC2",
+      "Amazon S3",
+      "Route 53",
+      "AWS Organizations"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "EC2 is a Regional Service?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A regional service is a service that operates across multiple regions or have a global presence.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following services is used to control access to AWS services for users",
+    "options": [
+      "EC2",
+      "Amazon S3",
+      "IAM",
+      "AWS Organizations"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following services is used to protect against DDoS attacks.",
+    "options": [
+      "AWS Cognito",
+      "AWS Shield",
+      "IAM",
+      "Amazon CloudWatch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which component of the AWS Global Infrastructure does Amazon CloudFront ensure low-latency delivery?",
+    "options": [
+      "AWS Regions",
+      "AWS edge locations",
+      "AWS Availability Zones",
+      "Amazon Virtual Private Cloud (Amazon VPC)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "You can run applications and workloads from a Region closer to the end users to ____ latency.",
+    "options": [
+      "increase",
+      "decrease"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "True or False? Networking, storage, compute, and databases are examples of service categories that AWS offers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following are geographic areas that host two or more Availability Zones",
+    "options": [
+      "AWS Origins",
+      "AWS Regions",
+      "Compute zones",
+      "Edge locations"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "____ means the infrastructure has built-in component redundancy and ____ means that resources dynamically adjust to increases or decreases in capacity requirements.",
+    "options": [
+      "No human intervention, fault tolerant",
+      "Elastic and scalable, no human intervention",
+      "Fault tolerant, elastic and scalable",
+      "Fault tolerant, no human intervention",
+      "Elastic and scalable, fault tolerant"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "True or False? Availability Zones within a Region are connected through low-latency links.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of these statements about Availability Zones is not true?",
+    "options": [
+      "Availability Zones are designed for fault isolation.",
+      "Availability Zones are made up of one or more data centers.",
+      "A data center can be used for more than one Availability Zone.",
+      "Availability Zones are connected to each other using high-speed private link"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is true about Regions? (Choose two.)",
+    "options": [
+      "Each Region is located in a separate geographic area.",
+      "A Region is a physical location that has multiple Availability Zones.",
+      "They are the physical locations of your customers.",
+      "All Regions are located in one specific geographic area."
+    ],
+    "correctIndex": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "AWS highly recommends provisioning your compute resources across ____ Availability Zones.",
+    "options": [
+      "all",
+      "multiple",
+      "no",
+      "single"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "True or False? Edge locations are only located in the same general area as Regions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  }
+]

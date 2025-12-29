@@ -1,0 +1,944 @@
+[
+  {
+    "question": "A VPC is available in which scope:",
+    "options": [
+      "Regional",
+      "Global",
+      "Availability Zone",
+      "Local"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary concern when reducing errors in a communication system?",
+    "options": [
+      "Delay issues",
+      "Capacity issues",
+      "Error detection and correction",
+      "Increasing bandwidth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What can you use to get alerts when your costs and usage are exceeding or are forecasted to exceed your budgeting amount?",
+    "options": [
+      "Cost and Usage Reports",
+      "Billing Dashboard",
+      "Pricing Calculator",
+      "Budgets"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following services is used to protect against DDoS attack.",
+    "options": [
+      "AWS Cognito",
+      "AWS Shield",
+      "IAM",
+      "Amazon CloudWatch"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does an Availability Zone in an AWS Region consist of?",
+    "options": [
+      "A single data center",
+      "One or more data centers",
+      "A single virtual machine",
+      "A collection of global resources"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What was the primary data transfer rate introduced with 3G?",
+    "options": [
+      "56 kbps",
+      "Up to 2 Mbps",
+      "1 Gbps",
+      "1 Tbps"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the cost of using AWS IAM?",
+    "options": [
+      "It is billed hourly",
+      "It requires a subscription plan",
+      "It is included with the AWS account at no additional charge",
+      "It is billed based on the number of users"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In most cases, what is the cost of inbound data transfer in AWS?",
+    "options": [
+      "Charged per GB",
+      "No charge",
+      "Charged based on the pricing model",
+      "Included in outbound data transfer costs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does AWS Transit Gateway enable customers to do?",
+    "options": [
+      "Deliver data globally",
+      "Connect multiple VPCs and on-premises networks to a single gateway",
+      "Distribute application traffic",
+      "Translate domain names into IP addresses"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Letters A and B in the following figure represent.... ",
+    "image": "",
+    "options": [
+      "A is the network address translation (NAT), and B is an Internet gateway",
+      "A is the DNS server, and B is the VPN gateway",
+      "A is the network address translation (NAT), and B is the VPN gateway",
+      "A is the DNS server and B is an Internet gateway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which statement is an advantage of the platform as a service (PaaS) cloud service model?",
+    "options": [
+      "PaaS is the most similar to traditional on-premises models for IT resources.",
+      "PaaS avoids the need to manage operating systems.",
+      "PaaS reduces the need to handle application deployments.",
+      "PaaS provides the greatest level of control over IT resources."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is NOT a feature of cloud computing?",
+    "options": [
+      "On-demand delivery of resources",
+      "Pay-as-you-go pricing",
+      "Resources delivered via the internet",
+      "Only available for personal use"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the main purpose of Amazon VPC?",
+    "options": [
+      "To create physical networks in AWS data centers",
+      "To monitor internet traffic in AWS",
+      "To provision a virtual network that is logically isolated from other networks",
+      "To manage storage in the AWS Cloud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the expected latency in 5G networks?",
+    "options": [
+      "500 ms",
+      "200 ms",
+      "100 ms",
+      "1 ms"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What does a cluster in a cellular network represent?",
+    "options": [
+      "A group of cells where no channels are reused",
+      "A single cell with reused frequencies",
+      "A single frequency assigned to multiple cells",
+      "A random arrangement of unrelated cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What happens when traffic to an application increases over time with Elastic Load Balancing?",
+    "options": [
+      "The application crashes due to overload",
+      "Manual intervention is required to add more servers",
+      "The load balancer automatically scales to handle increased traffic",
+      "The application becomes unresponsive"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In 1G networks, what type of communication was primarily supported?",
+    "options": [
+      "Analog voice",
+      "Digital voice",
+      "Video calling",
+      "Internet browsing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which statement about AWS Regions is true?",
+    "options": [
+      "All AWS accounts can access all AWS Regions.",
+      "All available Regions are enabled by default in an AWS account.",
+      "Using a Region as close as possible to users can reduce latency.",
+      "Data stored in an AWS Region isn't subject to geographical compliance requirements."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main advantage of Software as a Service (SaaS)?",
+    "options": [
+      "Complete control over infrastructure",
+      "Focus on application deployment",
+      "No need to manage or maintain the underlying infrastructure",
+      "Access to networking features and dedicated hardware"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following technologies was primarily used in 1G networks?",
+    "options": [
+      "CDMA",
+      "OFDMA",
+      "LTE",
+      "FDMA"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which AWS networking service enables a company to create a virtual network within AWS?",
+    "options": [
+      "Amazon VPC",
+      "AWS Config",
+      "Amazon Route 53",
+      "AWS Direct Connect"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which generation of mobile networks first enabled video calling?",
+    "options": [
+      "1G",
+      "2G",
+      "3G",
+      "4G"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which statement about edge locations is true?",
+    "options": [
+      "Amazon CloudFront uses edge locations and Regional edge caches to deliver content with lower latency.",
+      "Regional edge caches are used to cache data that's frequently updated and must be refreshed continuously.",
+      "The AWS global network includes a large number of Regional edge caches and a smaller number of edge locations to deliver content to users.",
+      "AWS points of presence provide two to three edge locations per Region."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary advantage of cell sectorization in mobile communication systems?",
+    "options": [
+      "Increased interference",
+      "Higher cell range and frequency reuse",
+      "Reduction in call capacity",
+      "Elimination of antenna requirements"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is Amazon CloudFront used for?",
+    "options": [
+      "Managing domain names",
+      "Distributing content to reduce latency",
+      "Monitoring internet performance",
+      "Storing data in AWS regions"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The number of bits in an IPv6 address is:",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which statement is CORRECT regarding EBS?",
+    "options": [
+      "An EBS can be mounted to multiple instances at a time",
+      "An EBS can be used in a regional scale",
+      "You can control the EBS behavior when an EC2 instance is terminated",
+      "You cannot copy snapshots across Regions"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is Amazon Relational Database Service (Amazon RDS) designed for?",
+    "options": [
+      "Providing NoSQL database support",
+      "Making it easy to set up, operate, and scale relational databases in the cloud",
+      "Running analytic queries on petabytes of data",
+      "Managing key-value pairs for large-scale applications"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main focus of addressing \"capacity issues\" in a communication system?",
+    "options": [
+      "Reducing delay",
+      "Increasing information transfer",
+      "Correcting errors",
+      "Minimizing costs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following best describes the key feature of 5G?",
+    "options": [
+      "High-speed data only",
+      "Improved call quality",
+      "Limited to voice and text",
+      "Enhanced mobile broadband, ultra-low latency, massive IoT support"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "IAM Service is a Service in:",
+    "options": [
+      "Networking and Content Delivery Service Category",
+      "Storage Service Category",
+      "Security, identity, and compliance Service Category",
+      "Compute Service Category"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?",
+    "options": [
+      "Storage Optimized",
+      "Compute Optimized",
+      "Memory Optimized",
+      "General Purpose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Under the shared responsibility model, what is the customer responsible for in IAM?",
+    "options": [
+      "Infrastructure security",
+      "Compliance validation",
+      "Assigning users proper IAM policies",
+      "Virtualization infrastructure"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Automate security best practices, apply security at all layers, and protect data in transit and at rest are design principles of:",
+    "options": [
+      "Operational Excellence",
+      "Security",
+      "Reliability",
+      "Performance Efficiency"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following Database Services is a NoSQL Database",
+    "options": [
+      "Amazon Aurora",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon Redshift"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In a cellular system, the area is divided into:",
+    "options": [
+      "Groups",
+      "Zones called cells",
+      "Segments",
+      "Regions without zones"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of component A, which is used to connect two VPCs?",
+    "image": "",
+    "options": [
+      "VPC Endpoint",
+      "VPC Peering",
+      "Internet Gateway",
+      "NAT Gateway"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What can you use to estimate the cost of your architecture solution?",
+    "options": [
+      "Pricing Calculator",
+      "Cost and Usage Reports",
+      "Total Cost of Ownership (TCO)",
+      "Trusted Advisor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+    "options": [
+      "AWS Regions",
+      "AWS edge locations",
+      "AWS Availability Zones",
+      "Amazon Virtual Private Cloud (Amazon VPC)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What drives the need for efficient frequency reuse in cellular systems?",
+    "options": [
+      "Abundant spectrum availability",
+      "Limited frequency spectrum",
+      "Unlimited power usage",
+      "Elimination of small zones"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does AWS Direct Connect provide?",
+    "options": [
+      "Dedicated private network connections to AWS to reduce network costs and increase bandwidth",
+      "Load balancing across multiple targets",
+      "Content delivery globally",
+      "Store your data"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A cloud practitioner wants to visualize their AWS costs per EC2 instance type for the past 3 months. Which AWS tool or feature should they use?",
+    "options": [
+      "AWS Cost Explorer",
+      "AWS Budgets",
+      "AWS Bills page",
+      "AWS Pricing Calculator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Your private subnets need to connect to the Internet while still remaining private. Which AWS-managed VPC component allows you to do this?",
+    "options": [
+      "Security Groups",
+      "Internet Gateway",
+      "NAT Gateway",
+      "Network ACL"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Your public VPC needs to connect with the Internet. Which VPC component can help?",
+    "options": [
+      "NAT Gateway",
+      "Security Group",
+      "Internet Gateway",
+      "Network ACL"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the Following Services is a Storage Service?",
+    "options": [
+      "EC2",
+      "Amazon S3",
+      "Route 53",
+      "AWS Organizations"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of firewall has both ALLOW and DENY rules and operates at the subnet level?",
+    "options": [
+      "Network Access Control List (NACL)",
+      "Web Application Firewall (WAF)",
+      "Security Groups",
+      "Network Address Translation (NAT)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?",
+    "options": [
+      "Storage Optimized",
+      "Compute Optimized",
+      "Memory Optimized",
+      "General Purpose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which AWS service category automatically handles features like scaling, fault-tolerance, and availability?",
+    "options": [
+      "Managed services",
+      "Unmanaged services",
+      "On-premises services",
+      "Standalone services"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following are design principles of Performance Efficiency?",
+    "options": [
+      "Go global in minutes & Use serverless architectures",
+      "Adopt a consumption mode & Stop spending money on data center operations",
+      "Understand your impact & Maximize utilization",
+      "Perform operations as code"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which mobile generation introduced SMS (Short Message Service)?",
+    "options": [
+      "1 G",
+      "2 G",
+      "3 G",
+      "4 G"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which state does an instance enter immediately after being launched from an AMI?",
+    "options": [
+      "Running",
+      "Pending",
+      "Stopped",
+      "Rebooting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following services is used to control access to AWS services for users?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "IAM",
+      "Amazon RDB"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is one benefit of grouping cells into clusters?",
+    "options": [
+      "Increased power usage",
+      "Reduced power usage",
+      "Eliminating the need for frequency reuse",
+      "Expanding frequency spectrum"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the primary cost-related benefit of stopping an Amazon EBS-backed instance?",
+    "options": [
+      "The instance incurs no cost at all.",
+      "The instance continues to incur the same costs as when it was running.",
+      "The instance incurs reduced storage costs but no compute costs.",
+      "The instance incurs only network-related costs."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "When you reserve, the larger the upfront payment, the smaller the discount.",
+    "options": [
+      "False, the upfront payment does not matter on the discount",
+      "False, the larger the upfront, the bigger the discount",
+      "True",
+      "Incorrect, the upfront amount should match the discount."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following statements best describes an Amazon Machine Image (AMI)?",
+    "options": [
+      "An AMI is a pre-configured script used to automate EC2 instance scaling.",
+      "An AMI is an Amazon service that monitors and logs EC2 instances.",
+      "An AMI provides the information required to launch an EC2 instance.",
+      "An AMI is a template used exclusively for storage-optimized EC2 instances."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A company is not sure whether or not it is cost-effective to migrate to the AWS Cloud. Which service can help the executive board make a decision?",
+    "options": [
+      "Billing Dashboard",
+      "Support Plans",
+      "Pricing Calculator",
+      "AWS Documentation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is true about VPC subnets?",
+    "options": [
+      "Subnets can span across multiple AWS Regions.",
+      "A subnet can belong to multiple Availability Zones.",
+      "A subnet must belong to a single Availability Zone.",
+      "Subnets are used only for routing purposes."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which component of AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+    "options": [
+      "AWS Regions",
+      "AWS edge locations",
+      "AWS Availability Zones",
+      "Amazon Virtual Private Cloud (Amazon VPC)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Reserved Instance option provides the largest discount?",
+    "options": [
+      "No Upfront Payments Reserved Instance (NURI)",
+      "Partial Upfront Reserved Instance (PURI)",
+      "All Upfront Reserved Instance (AURI)",
+      "Monthly Reserved Instance"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the most cost-effective option to have 24x7 phone, email, and chat support?",
+    "options": [
+      "Basic Support Plan",
+      "Developer Support Plan",
+      "Enterprise Support Plan",
+      "Business Support Plan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which answer is INCORRECT regarding IAM Users?",
+    "options": [
+      "IAM users can belong to multiple groups",
+      "IAM users don't have to belong to a group",
+      "IAM users can have policies assigned to them",
+      "IAM users access AWS with the root account credentials"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the Following Services is a Compute Service?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Route 53",
+      "AWS Organizations"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Changing an EC2 Instance Type from a t3a.medium to a t3a.2xlarge is an example of?",
+    "options": [
+      "Horizontal Scaling",
+      "Vertical Scaling",
+      "High Availability",
+      "Agility"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which technology is central to 4G networks?",
+    "options": [
+      "LTE",
+      "GSM",
+      "AMPS",
+      "CDMA"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following is an example of an unmanaged AWS service?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "IAM can specify which users can access specific AWS resources. This is an example of:",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Encryption",
+      "Replication"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is an EBS Snapshot?",
+    "options": [
+      "An operation system on an EC2 instance",
+      "A backup of your EBS volume at a point in time",
+      "The amount of CPU and RAM of an EC2 instance",
+      "A screenshot of your EC2 instance"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why is AWS more economical than traditional data centers for applications with varying compute workloads?",
+    "options": [
+      "Amazon Elastic Compute Cloud (Amazon EC2) costs are billed on a monthly basis.",
+      "Customers retain full administrative access to their Amazon EC2 instances.",
+      "Amazon EC2 instances can be launched on-demand when needed.",
+      "Customers can permanently run enough instances to handle peak workloads."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which cloud service model provides the highest level of flexibility and control over IT resources?",
+    "options": [
+      "Software as a Service (SaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "None of the above"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The maximum number of simultaneous calls that can occur with 124 channels and each channel shared by 8 subscribers is 992.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Storage is one of the three fundamental cost drivers with AWS.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "AWS Trusted Advisor comes with Full checks in the Developer Support Plan.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A public subnet is accessible from the Internet while a private subnet is not accessible from the Internet.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The largest IPv4 CIDR block size in a VPC is /20.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The primary goal of a communication system is to deliver as much information as possible from the source to the destination.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "2G networks used FDMA for communication.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Cellular systems use high power to cover the entire area without dividing it into smaller zones.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The t3.xlarge instance type has less memory and fewer virtual CPUs than the t3.nano",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Private subnets in VPCs require a NAT Gateway for internet access.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Elastic Load Balancing cannot handle workloads that require scaling.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pay-as-you-go pricing is a feature of cloud computing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A subnet belongs to one Availability Zone and requires a CIDR block.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The primary purpose of 4G was to improve call quality.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "IAM Service is a Regional Service",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Amazon Route 53 is a scalable DNS service that translates domain names into IP addresses.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "With Platform as a Service (PaaS), users are responsible for managing the underlying hardware and operating systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "3G technology enabled video streaming and high-speed data transfer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The goal of a load balancer is to ensure that we have a minimum and a maximum number of machines running",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A resource-based policy is attached to a resource (not to a user, group, or role).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Each subnet must be associated with a route table.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "To increase your root account security, remove permissions from it",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "IAM policies are constructed with JavaScript Object Notation (JSON) and define permissions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "RDS is a Serverless database",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Amazon S3 One Zone-IA stores data across three Availability Zones to ensure durability.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Hosting a static website on Amazon S3 requires setting up and managing a web server.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Error detection and correction are not a concern in communication systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The medium (wired and wireless) in a communication system serves as the channel for transferring information.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Frequency reuse is not possible in cellular systems.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "NACL (Network ACL) is a firewall, which controls traffic from and to an EC2 instance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  }
+]

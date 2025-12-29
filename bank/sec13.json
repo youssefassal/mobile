@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What is an EBS Snapshot?",
+    "options": [
+      "An operation system on an EC2 instance",
+      "A backup of your EBS volume at a point in time",
+      "The amount of CPU and RAM of an EC2 instance",
+      "A screenshot of your EC2 instance"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is an EBS Volume tied to?",
+    "options": [
+      "A Region",
+      "A Data center",
+      "An Edge Location",
+      "An Availability Zone"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which statement is CORRECT regarding EBS?",
+    "options": [
+      "An EBS can be mounted to multiple instances at a time",
+      "An EBS can be used in a regional scale",
+      "You can control the EBS behavior when an EC2 instance is terminated",
+      "You cannot copy snapshots across Regions"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "EBS Volumes CANNOT be attached to multiple EC2 instances at a time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An EBS is limited to an AZ, there is no way to move the volume across AZs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "True or False? Amazon Simple Storage Service (Amazon S3) is an object storage suitable for the storage of flat files like Microsoft Word documents, photos, etc.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Amazon S3 replicates all objects",
+    "options": [
+      "on multiple volumes within an Availability Zone",
+      "in multiple Availability Zones within the same Region",
+      "across multiple Regions for higher durability",
+      "on multiple S3 buckets"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following can be used as a storage class for an S3 object lifecycle policy? (Choose three)",
+    "options": [
+      "S3-Standard Access",
+      "AWS Storage Gateway",
+      "S3-Infrequent Access",
+      "Simple Storage Service Glacier",
+      "S3- Reduced Redundancy Storage",
+      "Amazon Dynamo DB"
+    ],
+    "correctIndex": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "The name of an S3 bucket must be unique",
+    "options": [
+      "worldwide across all AWS accounts",
+      "within a Region",
+      "across all your AWS accounts",
+      "within your AWS account"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "You can use Amazon Elastic File System (Amazon EFS) to:",
+    "options": [
+      "provide simple, scalable, elastic file storage for use only within AWS.",
+      "implement storage for Amazon EC2 instances that multiple virtual machines can access at the same time.",
+      "host a robust CDN to deliver entire web sites with dynamic, static, and streaming content.",
+      "generate user-specific content."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Amazon Elastic Block Store (Amazon EBS) is recommended when data (Choose two)",
+    "options": [
+      "requires object-level storage",
+      "must be quickly accessible, requiring long-term persistence",
+      "requires an encryption solution",
+      "needs to be stored in a different Availability Zone than the one the EC2 instance is in"
+    ],
+    "correctIndex": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "True or False? By default, all data stored in Amazon S3 is viewable by the public.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Regarding Amazon S3 Glacier, what is a Vault?",
+    "options": [
+      "The rules that determine who may (or may not) access archives",
+      "An object (photos, videos, files, or documents)",
+      "A container for storing archives",
+      "A policy that identifies who can access content stored in Glacier"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "True or False? When you create a bucket in Amazon S3, it is associated with a specific AWS Region.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following are features of Amazon Elastic Block Store (Amazon EBS)? (Choose two)",
+    "options": [
+      "Amazon EBS volumes can be encrypted transparently to workloads on the attached instance.",
+      "Data on an Amazon EBS volume is lost when the attached instance is stopped.",
+      "Amazon EBS data is automatically backed up to tape.",
+      "Data stored on Amazon EBS is automatically replicated within an Availability Zone."
+    ],
+    "correctIndex": [
+      0,
+      3
+    ]
+  }
+]

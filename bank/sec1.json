@@ -1,0 +1,242 @@
+[
+    {
+        "question": "Why does decreasing the cluster size (N) increase capacity?",
+        "options": [
+            "More frequencies per cell",
+            "More clusters fit in the same area",
+            "Reduced interference",
+            "Larger cell radius"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "A cellular system has 960 channels and a cluster size of 4. What is the system capacity if the total coverage area requires 83 clusters?",
+        "options": [
+            "46,080",
+            "79,680",
+            "960",
+            "240"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "If a system has 336 channels and a reuse factor of 7, how many channels are there per cell?",
+        "options": [
+            "48",
+            "56",
+            "64",
+            "72"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "What shape provides equidistant antennas in cellular geometry?",
+        "options": [
+            "Square",
+            "Triangle",
+            "Hexagon",
+            "Circle"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "For a cell radius R, the distance between adjacent cell centers is:",
+        "options": [
+            "d = R",
+            "d = 2R",
+            "d = √3R",
+            "d = πR"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Frequency reuse in cellular networks means:",
+        "options": [
+            "Using different frequencies in adjacent cells",
+            "Using same frequencies in non-adjacent cells",
+            "Using all frequencies in one cell",
+            "Never reusing frequencies"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Multipath propagation causes signals to:",
+        "options": [
+            "Arrive at same time with same strength",
+            "Arrive at different times with different strengths",
+            "Always cancel each other",
+            "Travel in straight lines only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "In FDMA, each user gets:",
+        "options": [
+            "Same frequency, different time slots",
+            "Different frequency bands",
+            "Unique codes",
+            "Multiple subcarriers"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "TDMA requires:",
+        "options": [
+            "Wide bandwidth",
+            "Precise timing synchronization",
+            "Unique spreading codes",
+            "Multiple antennas"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "CDMA allows multiple users to:",
+        "options": [
+            "Share same frequency simultaneously",
+            "Use different time slots",
+            "Have dedicated circuits",
+            "Use orthogonal frequencies"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which technique uses spreading codes?",
+        "options": [
+            "FDMA",
+            "TDMA",
+            "CDMA",
+            "OFDMA"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "The component that controls multiple BTSs is:",
+        "options": [
+            "MSC",
+            "HLR",
+            "BSC",
+            "VLR"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Circuit Switching establishes:",
+        "options": [
+            "Virtual connections",
+            "Packet routes",
+            "Dedicated physical circuits",
+            "Shared pathways"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "In Circuit Switching, resources are:",
+        "options": [
+            "Shared dynamically",
+            "Reserved for duration",
+            "Allocated per packet",
+            "Never guaranteed"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Packet Switching can handle:",
+        "options": [
+            "Only fixed data rates",
+            "Continuous streams only",
+            "Varying data rates",
+            "Voice only"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Shadowing is caused by:",
+        "options": [
+            "Small obstacles",
+            "Large obstacles",
+            "Atmospheric conditions",
+            "Distance only"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "SNR stands for:",
+        "options": [
+            "Signal-to-Noise Ratio",
+            "System Network Reliability",
+            "Signal Network Route",
+            "Synchronous Noise Reduction"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Scattering occurs at:",
+        "options": [
+            "Large obstacles",
+            "Medium density changes",
+            "Small obstacles",
+            "Straight paths"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "question": "Diffraction occurs at:",
+        "options": [
+            "Smooth surfaces",
+            "Edges",
+            "Vacuum",
+            "Free space"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "Interference range means signal:",
+        "options": [
+            "Is clearly detected",
+            "Adds to background noise",
+            "Has low error rate",
+            "Enables communication"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "NIC stands for:",
+        "options": [
+            "Network Interface Card",
+            "Network Internet Connection",
+            "Node Identification Code",
+            "Network Integration Circuit"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "question": "Which technique divides a congested cell into smaller cells?",
+        "options": [
+            "Frequency borrowing",
+            "Cell splitting",
+            "Cell sectoring",
+            "Microcells"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What is the primary role of an MTSO?",
+        "options": [
+            "Transmit signals to mobile units",
+            "Assign voice channels and perform handoffs",
+            "Manage frequency reuse",
+            "Design cell shapes"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "question": "What connects a base station to the public telephone network?",
+        "options": [
+            "MTSO",
+            "RF Cable",
+            "Control Channel",
+            "Traffic Channel"
+        ],
+        "correctIndex": 0
+    }
+]

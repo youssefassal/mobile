@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What are the advantages of cloud computing over computing on-premises?",
+    "options": [
+      "Avoid large capital purchases",
+      "Use on-demand capacity",
+      "Go global in minutes",
+      "Increase speed and agility",
+      "All of the above"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "question": "What is the pricing model that enables AWS customers to pay for resources on an as-needed basis?",
+    "options": [
+      "Pay as you decommission",
+      "Pay as you go",
+      "Pay as you buy",
+      "Pay as you reserve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these is NOT a cloud computing model?",
+    "options": [
+      "Platform as a service",
+      "Infrastructure as a service",
+      "System administration as a service",
+      "Software as a service"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "True or False? AWS owns and maintains the network-connected hardware required for application services, while you provision and use what you need.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of these is NOT a benefit of cloud computing over on-premises computing?",
+    "options": [
+      "Increase speed and agility",
+      "Pay for racking, stacking, and powering servers",
+      "Eliminate guessing on your infrastructure capacity needs",
+      "Trade capital expense for variable expense",
+      "Benefit from massive economies of scale"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following are NOT benefits of AWS Cloud computing? (Choose two.)",
+    "options": [
+      "Multiple procurement cycles",
+      "High availability",
+      "High latency",
+      "Temporary and disposable resources",
+      "Fault-tolerant databases"
+    ],
+    "correctIndex": [0, 2]
+  },
+  {
+    "question": "Which of the following is a compute service?",
+    "options": [
+      "Amazon EC2",
+      "Amazon VPC",
+      "Amazon S3",
+      "Amazon CloudFront",
+      "Amazon Redshift"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "True or False? Cloud computing provides a simple way to access servers, storage, databases, and a broad set of application services over the internet. You own the network-connected hardware required for these services and Amazon Web Services provisions what you need.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Economies of scale result from",
+    "options": [
+      "having many different cloud providers",
+      "having hundreds of thousands of customers aggregated in the cloud",
+      "having hundreds of cloud services available over the internet",
+      "having to invest heavily in data centers and servers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these are ways to access AWS core services? (Choose three.)",
+    "options": [
+      "Technical support calls",
+      "AWS Marketplace",
+      "AWS Management Console",
+      "AWS Command Line Interface (AWS CLI)",
+      "Software Development Kits (SDKs)"
+    ],
+    "correctIndex": [2, 3, 4]
+  }
+]
