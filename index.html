@@ -126,6 +126,24 @@
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl"
         >
+          <!-- Mid 13-11-2025 Topic -->
+          <div
+            onclick="startQuiz('mid_13_11_2025')"
+            class="topic-card bg-white p-6 rounded-xl shadow-md border-2 border-transparent hover:border-blue-500 cursor-pointer group"
+          >
+            <div
+              class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-3xl mb-4 mx-auto group-hover:scale-110 transition-transform"
+            >
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Mid 13-11-2025</h3>
+            <span
+              id="count-mid_13_11_2025"
+              class="inline-block mt-4 text-xs font-semibold bg-blue-50 text-blue-700 px-3 py-1 rounded-full"
+              >0 Questions</span
+            >
+          </div>
+
           <!-- Mid 22-11-2022 Topic -->
           <div
             onclick="startQuiz('mid_22_11_2022')"
@@ -349,6 +367,243 @@
     <script>
       // Database of questions extracted from 1.pdf (20 questions) and 2.pdf (45 questions)
       const database = {
+        mid_13_11_2025: [
+          {
+            question:
+              "1. Which of the following best describes software engineering?",
+            options: [
+              "The application of a systematic, disciplined, and quantifiable approach to the development, operation, and maintenance of software",
+              "The process of writing code without any specific methodology",
+              "The art of developing software without any constraints",
+              "The study of computer hardware architecture",
+            ],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "2. What is the difference between software engineering and computer science?",
+            options: [
+              "Software engineering deals with hardware, while computer science deals with software",
+              "Software engineering is concerned with the development and evolution of software systems, while computer science is concerned with the study of algorithms and data structures",
+              "There is no difference",
+              "Computer science focuses on software engineering principles",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "3. Which of the following is NOT a software engineering activity?",
+            options: [
+              "Software specification",
+              "Software validation",
+              "Software procurement",
+              "Software evolution",
+            ],
+            correctIndex: 2,
+          },
+          {
+            question:
+              "4. What is the most important difference between generic software product development and custom software development?",
+            options: [
+              "Generic software products are sold to many customers, while custom software is developed for a single customer",
+              "Generic software is always cheaper than custom software",
+              "Custom software is always of higher quality",
+              "There is no difference",
+            ],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "5. [___] are application systems that include all necessary functionality and do not need to be connected to a network.",
+            options: [
+              "Stand-alone applications",
+              "Interactive transaction-based applications",
+              "Data collection systems",
+              "All of the mentioned",
+            ],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "6. Confidentiality is a key ethical principle. This includes:",
+            options: [
+              "Sharing all project details openly on social media",
+              "Protecting sensitive client information even after the project ends",
+              "Discussing project challenges with online forums anonymously",
+              "Disclosing project details to a competitor for personal gain",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "7. What is the purpose of a code of ethics in software engineering?",
+            options: [
+              "To restrict the use of open-source software",
+              "To establish guidelines for ethical behavior in the field",
+              "To enforce software licensing agreements",
+              "To promote competition among software developers",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question: "8. Agile methodologies typically:",
+            options: [
+              "Have long-term fixed plans and schedules",
+              "Require detailed documentation before starting development",
+              "Embrace change, even late in development",
+              "Avoid customer involvement until software delivery",
+            ],
+            correctIndex: 2,
+          },
+          {
+            question: "9. The following figure describes:",
+            image: "images/11.png",
+            options: [
+              "The waterfall model",
+              "Incremental development",
+              "Spiral model",
+              "None of the mentioned",
+            ],
+            correctIndex: 0,
+          },
+          {
+            question: "10. The goal of software process models is to [___].",
+            options: [
+              "Manage risks",
+              "Produce high quality software",
+              "All of the mentioned",
+              "None of the mentioned",
+            ],
+            correctIndex: 2,
+          },
+          {
+            question: "11. COTS stands for...",
+            options: [
+              "Commercial Off-The-Shelf systems",
+              "Commercial Off-The-Shelf states",
+              "Commercial Off-The-System state",
+              "None of the mentioned",
+            ],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "12. Which of the following is an example of a reusable software component?",
+            options: [
+              "Web services",
+              ".Net framework",
+              "J2EE",
+              "All of the mentioned",
+            ],
+            correctIndex: 3,
+          },
+          {
+            question:
+              "13. What is the advantage of reusing software components?",
+            options: [
+              "It ensures better performance",
+              "It leads to faster delivery of the software",
+              "Full control over the system evolution",
+              "All of the mentioned",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "14. The process of deriving the system requirements through observation of existing systems and discussions with potential users is called",
+            options: [
+              "Feasibility study",
+              "Requirements elicitation",
+              "Requirements specification",
+              "Requirements validation",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "15. What is the purpose of a feasibility study in requirement engineering?",
+            options: [
+              "To assess the technical viability of the proposed system",
+              "To estimate the project schedule and budget",
+              "Both a and b",
+              "None of the above",
+            ],
+            correctIndex: 2,
+          },
+          {
+            question:
+              "16. Which of the following is an activity in the design phase of software development?",
+            options: [
+              "Database design",
+              "Interface design",
+              "Architectural design",
+              "All of the mentioned",
+            ],
+            correctIndex: 3,
+          },
+          {
+            question: "17. What are the different levels of Testing?",
+            options: [
+              "Component testing",
+              "System testing",
+              "Acceptance testing",
+              "All of the above",
+            ],
+            correctIndex: 3,
+          },
+          {
+            question: "18. Which one is/are the functional requirement?",
+            options: [
+              "High performance of software",
+              "Find the basic salary of an employee",
+              "User friendly interface",
+              "Reliability of software",
+            ],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "19. In incremental development, the customer can evaluate the system at an early stage to see if it delivers what is required.",
+            options: ["True", "False"],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "20. Real software processes are interleaved sequences of technical and managerial activities with the overall goal of specifying, designing, implementing, and testing a software system.",
+            options: ["True", "False"],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "21. Validation ensures that 'Are we building the product, right?'.",
+            options: ["True", "False"],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "22. A prototype system is an example of 'Change avoidance' approach.",
+            options: ["True", "False"],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "23. The functional requirements specification of a system should be both complete and consistent.",
+            options: ["True", "False"],
+            correctIndex: 0,
+          },
+          {
+            question:
+              "24. Non-functional requirements can be safely ignored in modern software development projects.",
+            options: ["True", "False"],
+            correctIndex: 1,
+          },
+          {
+            question:
+              "25. A common problem with non-functional requirements is that users or customers often propose these requirements as general goals.",
+            options: ["True", "False"],
+            correctIndex: 0,
+          },
+        ],
         mid_22_11_2022: [
           {
             question: "1. Software is defined as",
@@ -1867,6 +2122,7 @@
 
         // Set Header Info
         const titles = {
+          mid_13_11_2025: { title: "Mid 13-11-2025", icon: "fa-calendar-alt" },
           mid_22_11_2022: { title: "Mid 22-11-2022", icon: "fa-calendar-day" },
           mid_20_11_2024: {
             title: "Mid 20-11-2024",
